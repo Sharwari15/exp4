@@ -18,23 +18,23 @@ const cityInput = document.getElementById("city");
 
 ////////////////////////////
 // event listeners
-usernameInput.addEventListener("blur", (e) => {
+usernameInput.addEventListener("change", (e) => {
   validateForm(e.target.value, "username");
 });
 
-emailInput.addEventListener("blur", (e) => {
+emailInput.addEventListener("change", (e) => {
   validateForm(e.target.value, "email");
 });
 
-passwordInput.addEventListener("blur", (e) => {
+passwordInput.addEventListener("change", (e) => {
   validateForm(e.target.value, "password");
 });
 
-birthDataInput.addEventListener("blur", (e) => {
+birthDataInput.addEventListener("change", (e) => {
   validateForm(e.target.value, "date");
 });
 
-cityInput.addEventListener("blur", (e) => {
+cityInput.addEventListener("change", (e) => {
   validateForm(e.target.value, "city");
 });
 
